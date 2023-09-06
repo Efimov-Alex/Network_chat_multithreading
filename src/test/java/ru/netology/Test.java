@@ -1,12 +1,16 @@
+package ru.netology;
+
+import ru.netology.ChatClient;
+import ru.netology.ChatServer;
+import ru.netology.MyThreadServer;
+
 import java.io.*;
-import java.net.DatagramSocketImpl;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;

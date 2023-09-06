@@ -1,10 +1,11 @@
+package ru.netology;
+
 import java.io.*;
 import java.net.*;
 
 
 public class ChatClient {
     private static final Logger logger = Logger.getInstance();
-
     public Socket client = null;
     public DataOutputStream os;
     public DataInputStream is;
@@ -43,7 +44,7 @@ public class ChatClient {
             MyThreadRead read = new MyThreadRead(is);
             MyThreadWrite write = new MyThreadWrite(os, clientName);
             if (response.equals("#подтверждено")) {
-                logger.log("Сервер - # Зарегестрирован успешно как \"+ clientName +\" !");
+                logger.log("Сервер - # Зарегестрирован успешно как "+ clientName +" !");
                 logger.log("Сервер - Формат сообщения");
                 logger.log("Сервер - --------------");
                 logger.log("Сервер - Тело сообщения @кому [Тело сообщения может содержать пробелы]");

@@ -1,3 +1,5 @@
+package ru.netology;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +13,7 @@ public class Logger {
 
         try {
             PrintWriter writer = new PrintWriter(new
-                    FileWriter("I:\\Netology\\Курс_по_джаве-ДЗ\\Network_chat_multithreading\\file.log", true));
+                    FileWriter("file.log", true));
             writer.write("[" + LocalDateTime.now().format(DateTimeFormatter
                     .ofPattern("dd.MM.yyyy HH:mm:ss")) + "] " + msg + "\n");
             writer.flush();
@@ -26,7 +28,8 @@ public class Logger {
 
     public static Logger getInstance() {
 
-        if (logger == null) logger = new Logger();
+        if (logger == null)
+            logger = new Logger();
         return logger;
 
     }
