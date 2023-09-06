@@ -6,7 +6,6 @@ import java.net.*;
 import java.util.*;
 
 
-
 public class ChatServer {
     private static final Logger logger = Logger.getInstance();
     public ServerSocket server;
