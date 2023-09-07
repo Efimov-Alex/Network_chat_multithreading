@@ -35,10 +35,11 @@
 
 ## Скриншоты
 
-![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/94780c15-4cec-4eda-b0d6-dc969782e191)
+![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/4984e45a-a4cd-4cb4-b80e-68e6f707af0c)
 
-![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/153621f4-bd11-4910-b517-473d2fb2c317)
+![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/dcdea97d-277b-4640-bb7f-3f6d7f094d71)
 
-![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/e8ddb74a-a20b-4b08-a3ef-3bb9ee16af1d)
+![image](https://github.com/Efimov-Alex/Network_chat_multithreading/assets/125184679/b04df19f-77a5-49a7-b389-ef0bc572f842)
+
 
 
