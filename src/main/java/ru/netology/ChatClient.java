@@ -112,7 +112,7 @@ class MyThreadWrite extends Thread {
         try {
             while (true) {
                 String msg = br.readLine();
-                if (msg.equals("/exit")){
+                if (msg.equals("/exit")) {
                     System.exit(130);
                 }
                 os.writeUTF(msg);
