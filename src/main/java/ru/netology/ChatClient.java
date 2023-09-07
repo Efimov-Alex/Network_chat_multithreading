@@ -112,6 +112,9 @@ class MyThreadWrite extends Thread {
         try {
             while (true) {
                 String msg = br.readLine();
+                if (msg.equals("/exit")){
+                    System.exit(130);
+                }
                 os.writeUTF(msg);
             }
         } catch (Exception e) {
@@ -119,3 +122,14 @@ class MyThreadWrite extends Thread {
         }
     }
 }
+
+// I:\Netology\Курс_по_джаве-ДЗ\Network_chat_multithreading>javac -d classes src/main/java/ru/netology/*
+/*
+I:\Netology\Курс_по_джаве-ДЗ\Network_chat_multithreading>cd classes
+
+I:\Netology\Курс_по_джаве-ДЗ\Network_chat_multithreading\classes>java ru.netology.ChatServer
+Ошибка упс!settings.txt (Не удается найти указанный файл)
+
+I:\Netology\Курс_по_джаве-ДЗ\Network_chat_multithreading\classes>java ru.netology.ChatServer
+Сервер чата начинает работу .....
+ */
